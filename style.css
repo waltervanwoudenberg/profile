@@ -1,0 +1,94 @@
+/* Here goes your CSS */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,700|Ubuntu+Mono:400,700);
+
+body {
+  background-color: #d3d4d8;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #222831;
+  line-height: 24px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+#series {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.table-image img {
+  width: 100px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+
+h1, h2 {
+  font-family:'Ubuntu Mono' monospace, font-weight: 400;
+  line-height: 18px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+a:link, ul {
+  text-decoration: none;
+  color: #4d606e;
+}
+
+.list-inline li i {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #3fbac2;
+}
+
+a:visited {
+  color: #3fbac2;
+}
+
+ul, li {
+  list-style-type: none;
+}
